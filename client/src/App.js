@@ -1,8 +1,8 @@
 import { ChakraProvider } from '@chakra-ui/react';
 import { Routes, Route } from 'react-router-dom';
 import SidebarWithHeader from './components/Sidebar';
-import Dashboard from './routes/Dashboard';
-import Debug from './routes/Debug';
+import Dashboard from './pages/Dashboard';
+import Debug from './pages/Debug';
 
 function App() {
   return (

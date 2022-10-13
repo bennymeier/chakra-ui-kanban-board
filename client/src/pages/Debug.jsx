@@ -1,9 +1,9 @@
 import { Heading } from '@chakra-ui/react';
 import { useEffect, useState } from 'react';
 import ProjectFormModal from '../components/ProjectFormModal';
-import ProjectTable from '../components/ProjectTable';
+import ProjectTable from '../components/debug/ProjectTable';
 import TaskForm from '../components/TaskForm';
-import TaskTable from '../components/TaskTable';
+import TaskTable from '../components/debug/TaskTable';
 import { getProjects, getTasks } from '../utils/API';
 
 function Debug() {

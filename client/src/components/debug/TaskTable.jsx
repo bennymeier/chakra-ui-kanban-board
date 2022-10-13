@@ -8,7 +8,7 @@ import {
   Tbody,
 } from '@chakra-ui/react';
 import { useEffect, useState } from 'react';
-import { getTasks } from '../utils/API';
+import { getTasks } from '../../utils/API';
 
 function TaskTable() {
   const [tasks, setTasks] = useState([]);
